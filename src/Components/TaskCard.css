@@ -1,0 +1,14 @@
+.Appear {
+  animation: Add;
+  animation-duration: 0.8s;
+  animation-iteration-count: initial;
+}
+
+@keyframes Add {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
